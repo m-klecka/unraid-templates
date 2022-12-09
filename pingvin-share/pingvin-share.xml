@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>pingvin-share</Name>
+  <Repository>stonith404/pingvin-share</Repository>
+  <Registry>https://hub.docker.com/r/stonith404/pingvin-share/</Registry>
+  <Network>dockernet</Network>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/stonith404/pingvin-share/issues</Support>
+  <Project>https://github.com/stonith404/pingvin-share</Project>
+  <Overview>Pingvin Share is self-hosted file sharing platform and an alternative for WeTransfer.&#xD;
+&#x2728; Features&#xD;
+&#xD;
+- Spin up your instance within 2 minutes&#xD;
+- Create a share with files that you can access with a link&#xD;
+- No file size limit, only your disk will be your limit&#xD;
+- Set a share expiration&#xD;
+- Optionally secure your share with a visitor limit and a password&#xD;
+- Email recepients&#xD;
+- Light &amp;amp; dark mode&#xD;
+</Overview>
+  <Category>Cloud: Productivity: Status:Beta</Category>
+  <WebUI>http://[IP]:[PORT:3000]</WebUI>
+  <TemplateURL/>
+  <Icon>https://github.com/stonith404/pingvin-share/blob/main/frontend/public/icons/icon-512x512.png?raw=true</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1670610322</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Data path" Target="/opt/app/backend/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/pingvin-share</Config>
+  <Config Name="WebUI port" Target="3000" Default="3000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">3060</Config>
+  <Config Name="Upload path" Target="/opt/app/backend/data/uploads" Default="" Mode="rw" Description="Path to save uploaded files" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/vid/</Config>
+</Container>
