@@ -23,7 +23,7 @@
   <Category>Cloud: Productivity: Status:Beta</Category>
   <WebUI>http://[IP]:[PORT:3000]</WebUI>
   <TemplateURL/>
-  <Icon>https://github.com/stonith404/pingvin-share/blob/main/frontend/public/icons/icon-512x512.png?raw=true</Icon>
+  <Icon>https://raw.githubusercontent.com/stonith404/pingvin-share/main/frontend/public/img/icons/icon-512x512.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
