@@ -3,11 +3,11 @@
   <Name>Spoolman</Name>
   <Repository>ghcr.io/donkie/spoolman:latest</Repository>
   <Registry/>
-  <Network>dockernet</Network>
+  <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://github.com/Donkie/Spoolman/issues</Support>
   <Project>https://github.com/Donkie/Spoolman</Project>
   <Overview>Keep track of your inventory of 3D-printer filament spools.&#xD;
 &#xD;
@@ -17,7 +17,7 @@ It acts as a database, where other printer software such as Octoprint and Moonra
   <Category>Productivity: Tools: Other:</Category>
   <WebUI>http://[IP]:[PORT:8000]</WebUI>
   <TemplateURL/>
-  <Icon>https://raw.githubusercontent.com/Donkie/Spoolman/master/client/icons/spoolman.svg</Icon>
+  <Icon>https://raw.githubusercontent.com/m-klecka/unraid-templates/main/spoolman/spoolman.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
