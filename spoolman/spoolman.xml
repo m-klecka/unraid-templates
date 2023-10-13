@@ -25,7 +25,7 @@ It acts as a database, where other printer software such as Octoprint and Moonra
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="Data" Target="/home/app/.local/share/spoolman" Default="/mnt/user/appdata/spoolman" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/spoolman</Config>
+  <Config Name="Data" Target="/data" Default="/mnt/user/appdata/spoolman" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/spoolman</Config>
   <Config Name="WebUI Port" Target="8000" Default="7912" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">7912</Config>
   <Config Name="SPOOLMAN_DB_TYPE (remove if not used)" Target="SPOOLMAN_DB_TYPE" Default="" Mode="" Description="Type of database, any of: postgres, mysql, sqlite, cockroachdb" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="SPOOLMAN_DB_HOST (remove if not used)" Target="SPOOLMAN_DB_HOST" Default="" Mode="" Description="Database hostname" Type="Variable" Display="always" Required="false" Mask="false"/>
