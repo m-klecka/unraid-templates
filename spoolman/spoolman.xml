@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://github.com/Donkie/Spoolman/issues</Support>
+  <Support>https://forums.unraid.net/topic/146413-support-mklecka-spoolman</Support>
   <Project>https://github.com/Donkie/Spoolman</Project>
   <Overview>Keep track of your inventory of 3D-printer filament spools.&#xD;
 &#xD;
