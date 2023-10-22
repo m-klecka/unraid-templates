@@ -30,9 +30,9 @@ For more container variables visit https://github.com/Donkie/Spoolman#using-dock
   <Config Name="Data" Target="/data" Default="/mnt/user/appdata/spoolman" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/spoolman</Config>
   <Config Name="WebUI Port" Target="8000" Default="7912" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">7912</Config>
   <Config Name="SPOOLMAN_DB_TYPE" Target="SPOOLMAN_DB_TYPE" Default="sqlite" Mode="" Description="Type of database, any of: postgres, mysql, sqlite, cockroachdb" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="SPOOLMAN_DB_HOST" Target="SPOOLMAN_DB_HOST" Default="remove if not used" Mode="" Description="Database hostname" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="SPOOLMAN_DB_PORT" Target="SPOOLMAN_DB_PORT" Default="remove if not used" Mode="" Description="Database port" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="SPOOLMAN_DB_NAME" Target="SPOOLMAN_DB_NAME" Default="remove if not used" Mode="" Description="Database name" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="SPOOLMAN_DB_USERNAME" Target="SPOOLMAN_DB_USERNAME" Default="remove if not used" Mode="" Description="Database username" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="SPOOLMAN_DB_PASSWORD" Target="SPOOLMAN_DB_PASSWORD" Default="remove if not used" Mode="" Description="Database password" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="SPOOLMAN_DB_HOST" Target="SPOOLMAN_DB_HOST" Default="remove variable if not used" Mode="" Description="Database hostname" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="SPOOLMAN_DB_PORT" Target="SPOOLMAN_DB_PORT" Default="remove variable if not used" Mode="" Description="Database port" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="SPOOLMAN_DB_NAME" Target="SPOOLMAN_DB_NAME" Default="remove variable if not used" Mode="" Description="Database name" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="SPOOLMAN_DB_USERNAME" Target="SPOOLMAN_DB_USERNAME" Default="remove variable if not used" Mode="" Description="Database username" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="SPOOLMAN_DB_PASSWORD" Target="SPOOLMAN_DB_PASSWORD" Default="remove variable if not used" Mode="" Description="Database password" Type="Variable" Display="always" Required="false" Mask="false"/>
 </Container>
