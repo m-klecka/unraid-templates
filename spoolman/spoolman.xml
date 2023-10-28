@@ -15,7 +15,7 @@ Spoolman is a web service that helps you keep track of your filament spools and 
 &#xD;
 It acts as a database, where other printer software such as Octoprint and Moonraker can interact with to have a centralized place for spool information. For example, if used together with Moonraker, your spool weight will automatically be reduced as your print is progressing.&#xD;
 &#xD;
-For more container variables visit https://github.com/Donkie/Spoolman#using-docker</Overview>
+For more container variables visit the official github repo https://github.com/Donkie/Spoolman#using-docker</Overview>
   <Category>Productivity: Tools: Other:</Category>
   <WebUI>http://[IP]:[PORT:8000]</WebUI>
   <TemplateURL/>
