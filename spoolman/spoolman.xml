@@ -28,7 +28,7 @@ The default data path inside container has some problem with permissions, so whe
   <DateInstalled>1696843796</DateInstalled>
   <DonateText/>
   <DonateLink/>
-  <Requires/>
+  <Requires>The container has some problem with permissions for the volume mapping to appdata. Run "New Permissions" after running the container for the first time, this fixes it.</Requires>
   <Config Name="Data" Target="/home/app/.local/share/spoolman" Default="/mnt/user/appdata/spoolman" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/spoolman</Config>
   <Config Name="WebUI Port" Target="8000" Default="7912" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">7912</Config>
   <Config Name="SPOOLMAN_DB_TYPE" Target="SPOOLMAN_DB_TYPE" Default="sqlite" Mode="" Description="Type of database, any of: postgres, mysql, sqlite, cockroachdb" Type="Variable" Display="always" Required="false" Mask="false"/>
