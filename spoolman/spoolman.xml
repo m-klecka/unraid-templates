@@ -15,9 +15,7 @@ Spoolman is a web service that helps you keep track of your filament spools and 
 &#xD;
 It acts as a database, where other printer software such as Octoprint and Moonraker can interact with to have a centralized place for spool information. For example, if used together with Moonraker, your spool weight will automatically be reduced as your print is progressing.&#xD;
 &#xD;
-For more container variables visit the official github repo https://github.com/Donkie/Spoolman#using-docker
-&#xD;
-The default data path inside container has problem with unraid appdata permissions. After installing open unraid console and run "sudo chown -R 1000:1000 /mnt/user/appdata/spoolman" (or your different specified appdata path) to fix the issue.</Overview>
+For more container variables visit the official github repo https://github.com/Donkie/Spoolman#using-docker</Overview>
   <Category>Productivity: Tools: Other:</Category>
   <WebUI>http://[IP]:[PORT:8000]</WebUI>
   <TemplateURL/>
@@ -28,7 +26,6 @@ The default data path inside container has problem with unraid appdata permissio
   <DateInstalled>1696843796</DateInstalled>
   <DonateText/>
   <DonateLink/>
-  <Requires>The default data path inside container has problem with unraid appdata permissions. After installing open unraid console and run "sudo chown -R 1000:1000 /mnt/user/appdata/spoolman" (or your different specified appdata path) to fix the issue.</Requires>
   <Config Name="Data" Target="/home/app/.local/share/spoolman" Default="/mnt/user/appdata/spoolman" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/spoolman</Config>
   <Config Name="WebUI Port" Target="8000" Default="7912" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">7912</Config>
   <Config Name="SPOOLMAN_DB_TYPE" Target="SPOOLMAN_DB_TYPE" Default="sqlite" Mode="" Description="Type of database, any of: postgres, mysql, sqlite, cockroachdb" Type="Variable" Display="always" Required="false" Mask="false"/>
