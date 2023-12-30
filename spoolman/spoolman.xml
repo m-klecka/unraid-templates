@@ -37,4 +37,6 @@ The default data path inside container has problem with unraid appdata permissio
   <Config Name="SPOOLMAN_DB_NAME" Target="SPOOLMAN_DB_NAME" Default="remove variable if not used" Mode="" Description="Database name" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="SPOOLMAN_DB_USERNAME" Target="SPOOLMAN_DB_USERNAME" Default="remove variable if not used" Mode="" Description="Database username" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="SPOOLMAN_DB_PASSWORD" Target="SPOOLMAN_DB_PASSWORD" Default="remove variable if not used" Mode="" Description="Database password" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="PUID" Target="PUID" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">100</Config>
 </Container>
